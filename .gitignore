@@ -5,3 +5,4 @@ __pycache__/
 .venv/
 .claude/
 benchmark_results.partial.csv
+*.webp

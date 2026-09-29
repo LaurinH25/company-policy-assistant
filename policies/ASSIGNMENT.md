@@ -14,7 +14,10 @@ The Slack bot may run locally. Permanent hosting is not required.
 
 ## Deliverables
 
-- Link to the deployed website
-- Two-paragraph comparison
-- Link to the source-code repository
-- Screenshot showing the bot being called and answering a policy question in a channel
+- Link to the deployed website     https://company-policy-assistant.streamlit.app/
+
+- Two-paragraph comparison 	writeup.md 
+
+- Link to the source-code repository        https://github.com/LaurinH25/company-policy-assistant
+
+- Screenshot showing the bot being called and answering a policy question in a channel (in the folder)
