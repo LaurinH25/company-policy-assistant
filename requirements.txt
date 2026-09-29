@@ -1,0 +1,7 @@
+google-genai>=1.20
+numpy
+scikit-learn
+python-dotenv
+streamlit
+pandas
+slack-bolt

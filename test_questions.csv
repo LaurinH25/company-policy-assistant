@@ -1,0 +1,25 @@
+question,expected_policy,type
+How many vacation days do I get per year?,Vacation Policy,direct
+What is the password change interval?,Password Policy,direct
+How long is the probation period for new hires?,Probation Period Policy,direct
+Which expenses need approval from Finance first?,Expense Approval Policy,direct
+How long do I have to submit travel receipts?,Travel Reimbursement Policy,direct
+How much parental leave can I take?,Parental Leave Policy,direct
+How long is the product warranty?,Warranty Policy,direct
+How many days per week can I work from home?,Remote Work Policy,direct
+Can I work from another country for a few weeks?,Work From Abroad Policy,paraphrase
+What should I wear to the office?,Dress Code Policy,paraphrase
+My grandmother passed away. How much time off can I take?,Bereavement Leave Policy,paraphrase
+Can I start later in the morning and stay longer in the evening?,Flexible Hours Policy,paraphrase
+I think a colleague is committing fraud. Can I report it without giving my name?,Whistleblower Policy,paraphrase
+A journalist called me asking about our new product. Can I answer?,Media Contact Policy,paraphrase
+Will the company pay for my master's degree?,Tuition Assistance Policy,paraphrase
+I want a better chair for my home desk. Is that possible?,Home Office Equipment Policy,paraphrase
+Can I bring my dog to the office?,,not_covered
+How much is the annual Christmas bonus?,,not_covered
+Does the company provide free lunch?,,not_covered
+What is the salary range for a senior accountant?,,not_covered
+How many sick days do I get per year?,Sick Leave Policy,gap
+What is the maximum value of a gift I can give a client?,Client Gift Policy,gap
+How many unused vacation days can I roll over?,Vacation Policy,gap
+What is the daily meal allowance when travelling?,,not_covered

@@ -1,0 +1,4 @@
+approach,Correct policy: direct (8),Correct policy: paraphrased (8),Correct policy: detail missing (3),Correct abstention: no policy (5),Unsupported answers (all 24),Median response time (s),Avg tokens per question
+Rules-based search,1.0,0.25,0.6666666666666666,0.4,0.5,0.00253444997360925,0.0
+LLM without vector index,1.0,1.0,1.0,1.0,0.125,1.7752034000004642,2297.875
+LLM with vector index,1.0,1.0,0.6666666666666666,1.0,0.08333333333333333,1.8051888499758206,209.125
