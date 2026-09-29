@@ -34,3 +34,14 @@ Create an app from this repository with `app.py` as the main file. Under **Advan
 ```toml
 GEMINI_API_KEY = "your-key"
 ```
+
+## Slack bot (runs locally)
+
+`slack_bot.py` answers in Slack with the LLM + vector index approach (falling back to rules-based search if Gemini is unavailable). It uses **Socket Mode**: the bot runs on your own computer and opens an outgoing connection to Slack, so no hosting or public URL is needed. It is online while the script runs.
+
+1. At https://api.slack.com/apps: **Create New App → From a manifest**, paste `slack_manifest.json` (JSON tab).
+2. **Basic Information → App-Level Tokens**: create a token with `connections:write` → `SLACK_APP_TOKEN` in `.env`.
+3. **Install App** → copy the Bot User OAuth Token → `SLACK_BOT_TOKEN` in `.env`.
+4. `/invite @Policy Assistant` in your channel, then run `python slack_bot.py`.
+
+Ask it with `@Policy Assistant <question>`, `/policy <question>`, or a direct message.

@@ -1,0 +1,29 @@
+{
+  "display_information": {
+    "name": "Policy Assistant",
+    "description": "Answers company policy questions and names the relevant policy.",
+    "background_color": "#1f3b57"
+  },
+  "features": {
+    "bot_user": { "display_name": "Policy Assistant", "always_online": false },
+    "app_home": { "messages_tab_enabled": true, "messages_tab_read_only_enabled": false },
+    "slash_commands": [
+      {
+        "command": "/policy",
+        "description": "Ask a company policy question",
+        "usage_hint": "How many vacation days do I get?",
+        "should_escape": false
+      }
+    ]
+  },
+  "oauth_config": {
+    "scopes": { "bot": ["app_mentions:read", "chat:write", "commands", "im:history"] }
+  },
+  "settings": {
+    "event_subscriptions": { "bot_events": ["app_mention", "message.im"] },
+    "interactivity": { "is_enabled": false },
+    "org_deploy_enabled": false,
+    "socket_mode_enabled": true,
+    "token_rotation_enabled": false
+  }
+}
